@@ -1,0 +1,23 @@
+#include <iostream>
+
+using namespace std;
+
+int main(){
+    // increment dan decreament
+    // preincrement dan postincrement
+
+    int a = 5;
+    int b = 5;
+
+    // postincrement
+    cout << a << endl;
+    cout << a++ << endl;
+    cout << a << endl << endl;
+
+    // preincrement
+    cout << b << endl;
+    cout << ++b << endl;
+    cout << b << endl;
+
+    return 0;
+}
